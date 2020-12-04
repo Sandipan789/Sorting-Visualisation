@@ -26,6 +26,7 @@ function generate_array(){
 		divi[i]=document.createElement("div");
 		margin_size=0.1;
         divi[i].style=" margin:0% " + margin_size + "%; background-color:blue; width:" + (100/ar_len-(2*margin_size)) + "%; height:" + (div_size[i]) + "%;";
+        
         container.appendChild(divi[i]);
 	}
 }
